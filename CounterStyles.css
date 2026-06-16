@@ -38,10 +38,24 @@ button:active{
     border: none;
     border-radius: 8px;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
-    
 }
 
 .life_btn:active{
+    transform:translateY(2px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Xlife_btn{
+    font-size: 16px;
+    padding: 5px 12px;
+    color:rgb(63, 57, 57);
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Xlife_btn:active{
     transform:translateY(2px);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
