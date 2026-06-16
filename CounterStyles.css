@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    height: 100vh;
+    margin: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:antiquewhite;
+    background-color: rgb(63, 57, 57);
+}
+
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+
+button{
+    color:rgb(63, 57, 57);
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+button:active{
+    transform:translateY(2px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.life_btn{
+    font-size: 32px;
+    padding: 10px 32px;
+    color:rgb(63, 57, 57);
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+    
+}
+
+.life_btn:active{
+    transform:translateY(2px);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Btns_Container{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#life_txt{
+    font-size: 80px;
+}
