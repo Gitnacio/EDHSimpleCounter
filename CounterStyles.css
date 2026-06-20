@@ -16,16 +16,16 @@ h1{
     margin: 0;
 }
 
-button{
+.restart_btn{
     color:rgb(63, 57, 57);
     background-color: antiquewhite;
     border: none;
     border-radius: 8px;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
-    
+    cursor: pointer;
 }
 
-button:active{
+.restart_btn:active{
     transform:translateY(2px);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -38,6 +38,7 @@ button:active{
     border: none;
     border-radius: 8px;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .life_btn:active{
@@ -53,11 +54,53 @@ button:active{
     border: none;
     border-radius: 8px;
     box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
 }
 
 .Xlife_btn:active{
     transform:translateY(2px);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cmd_btn{
+    font-size: 26px;
+    color:aliceblue;
+    padding: 20px 25px;
+    border:rgb(0, 0, 0);
+    background:rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    gap: 20px
+}
+
+.cmd_btn:active{
+    background:rgb(0, 0, 0);
+}
+
+.cmd_cont{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.single_cmd_cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-config{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 36px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-config:active{
+    transform:translateY(2px);
+    border: none;
+    background: none;
 }
 
 .Btns_Container{
