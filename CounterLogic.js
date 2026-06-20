@@ -22,7 +22,7 @@ subs_button.addEventListener('click', function(){
      life_txt.textContent = life_count;
     if (life_count <= 0){
         life_txt.style.color = "rgb(206, 10, 10)";
-    }else{
+    }else if(cmd_1_count < 21 && cmd_2_count < 21 && cmd_3_count < 21){
         life_txt.style.color = "";
     }
 })
@@ -32,7 +32,7 @@ add_button.addEventListener('click', function(){
     life_txt.textContent = life_count;
     if (life_count <= 0){
         life_txt.style.color = "rgb(206, 10, 10)";
-    }else{
+    }else if(cmd_1_count < 21 && cmd_2_count < 21 && cmd_3_count < 21){
         life_txt.style.color = "";
     }
 })
@@ -42,7 +42,7 @@ subs_Xbutton.addEventListener('click', function(){
      life_txt.textContent = life_count;
     if (life_count <= 0){
         life_txt.style.color = "rgb(206, 10, 10)";
-    }else{
+    }else if(cmd_1_count < 21 && cmd_2_count < 21 && cmd_3_count < 21){
         life_txt.style.color = "";
     }
 })
@@ -52,7 +52,7 @@ add_Xbutton.addEventListener('click', function(){
     life_txt.textContent = life_count;
     if (life_count <= 0){
         life_txt.style.color = "rgb(206, 10, 10)";
-    }else{
+    }else if(cmd_1_count < 21 && cmd_2_count < 21 && cmd_3_count < 21){
         life_txt.style.color = "";
     }
 })
