@@ -76,6 +76,20 @@ h1{
     background:rgb(0, 0, 0);
 }
 
+.cmd_mns_btn{
+    font-size: 12px;
+    color:aliceblue;
+    padding: 5px 15px;
+    border:rgb(0, 0, 0);
+    background:rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    gap: 20px
+}
+
+.cmd_mns_btn:active{
+    background:rgb(0, 0, 0);
+}
+
 .cmd_cont{
     display: flex;
     flex-direction: row;
@@ -85,6 +99,7 @@ h1{
 .single_cmd_cont{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .btn-config{
