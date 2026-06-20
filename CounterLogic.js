@@ -112,56 +112,64 @@ cmd_3_btn.addEventListener('click', function(){
 })
 
 cmd_1_mns_btn.addEventListener('click', function(){
-    cmd_1_count--;
-    life_count++;
-    cmd_1_btn.textContent = cmd_1_count;
-    life_txt.textContent = life_count;
-    if (cmd_1_count >= 21){
-        cmd_1_btn.style.color = "rgb(206, 10, 10)";
-        life_txt.style.color = "rgb(206, 10, 10)";
-    }else{
-        life_txt.style.color = "";
-        cmd_1_btn.style.color = "";
-    }
+    if (cmd_1_count > 0){
+        cmd_1_count--;
+        life_count++;
+        cmd_1_btn.textContent = cmd_1_count;
+        life_txt.textContent = life_count;
+        if (cmd_1_count >= 21){
+            cmd_1_btn.style.color = "rgb(206, 10, 10)";
+            life_txt.style.color = "rgb(206, 10, 10)";
+        }else{
+            life_txt.style.color = "";
+            cmd_1_btn.style.color = "";
+        }
 
-    if (life_count <= 0){
-        life_txt.style.color = "rgb(206, 10, 10)";
+        if (life_count <= 0){
+            life_txt.style.color = "rgb(206, 10, 10)";
+        }
     }
+    
 })
 
 cmd_2_mns_btn.addEventListener('click', function(){
-    cmd_2_count--;
-    life_count++;
-    cmd_2_btn.textContent = cmd_2_count;
-    life_txt.textContent = life_count;
-    if (cmd_2_count >= 21){
-        cmd_2_btn.style.color = "rgb(206, 10, 10)";
-        life_txt.style.color = "rgb(206, 10, 10)";
-    }else{
-        life_txt.style.color = "";
-        cmd_2_btn.style.color = "";
-    }
+    if (cmd_2_count > 0){
+        cmd_2_count--;
+        life_count++;
+        cmd_2_btn.textContent = cmd_2_count;
+        life_txt.textContent = life_count;
+        if (cmd_2_count >= 21){
+            cmd_2_btn.style.color = "rgb(206, 10, 10)";
+            life_txt.style.color = "rgb(206, 10, 10)";
+        }else{
+            life_txt.style.color = "";
+            cmd_2_btn.style.color = "";
+        }
 
-    if (life_count <= 0){
-        life_txt.style.color = "rgb(206, 10, 10)";
+        if (life_count <= 0){
+            life_txt.style.color = "rgb(206, 10, 10)";
+        }
     }
+    
 })
 
 cmd_3_mns_btn.addEventListener('click', function(){
-    cmd_3_count--;
-    life_count++;
-    cmd_3_btn.textContent = cmd_3_count;
-    life_txt.textContent = life_count;
-    if (cmd_3_count >= 21){
-        cmd_3_btn.style.color = "rgb(206, 10, 10)";
-        life_txt.style.color = "rgb(206, 10, 10)";
-    }else{
-        life_txt.style.color = "";
-        cmd_3_btn.style.color = "";
-    }
+    if (cmd_3_count > 0){
+        cmd_3_count--;
+        life_count++;
+        cmd_3_btn.textContent = cmd_3_count;
+        life_txt.textContent = life_count;
+        if (cmd_3_count >= 21){
+            cmd_3_btn.style.color = "rgb(206, 10, 10)";
+            life_txt.style.color = "rgb(206, 10, 10)";
+        }else{
+            life_txt.style.color = "";
+            cmd_3_btn.style.color = "";
+        }
 
-    if (life_count <= 0){
-        life_txt.style.color = "rgb(206, 10, 10)";
+        if (life_count <= 0){
+            life_txt.style.color = "rgb(206, 10, 10)";
+        }
     }
 })
 
