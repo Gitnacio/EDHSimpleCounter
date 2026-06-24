@@ -107,8 +107,8 @@ h2{
 }
 
 .single_cmd_cont{
-    align-items: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
     gap: 10px;
 }
